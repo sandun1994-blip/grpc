@@ -1,0 +1,10 @@
+{
+  "name": "my-app",
+  "version": "1.0.0",
+  "private": "true",
+  "scripts": {
+    "dev":"turbo run dev",
+    "dev:api":"pnpm --filter api start:dev",
+    "dev:identity":"pnpm --filter identity start:dev"
+  }
+}
